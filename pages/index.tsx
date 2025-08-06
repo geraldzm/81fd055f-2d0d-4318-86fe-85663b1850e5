@@ -31,14 +31,14 @@ export default function TodoApp() {
         <div className="flex mb-4">
           <input
             type="text"
-            className="border border-gray-600 rounded px-3 py-2 flex-1 bg-gray-700"
+            className="border border-gray-600 rounded px-3 py-2 flex-1 bg-gray-800"
             placeholder="Enter new task"
             value={newTodo}
             onChange={(e) => setNewTodo(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && addTodo()}
           />
           <button
-            className="ml-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
+            className="ml-2 bg-red-600 hover:bg-red-700 px-4 py-2 rounded"
             onClick={addTodo}
           >
             Add
