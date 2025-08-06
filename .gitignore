@@ -38,5 +38,8 @@ yarn-error.log*
 # idea files
 .idea
 
-# In your .gitignore file, add:
+# Ignore Docker file system files 
 .wh.*
+
+# Ignore npm cache home directory
+.npm/
