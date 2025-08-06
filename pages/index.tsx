@@ -90,6 +90,9 @@ export default function TodoApp() {
             ))}
           </ul>
         </div>
+        <footer className="mt-8 text-center text-gray-400">
+          <p>This is a simple TODO app built with Next.js. Manage your tasks efficiently!</p>
+        </footer>
       </div>
     </div>
   );
