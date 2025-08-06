@@ -25,7 +25,7 @@ export default function TodoApp() {
   const completedTodos = todos.filter(todo => todo.done);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-4">
+    <div className="min-h-screen flex flex-col items-start justify-start bg-gray-900 text-white p-4">
       <div className="w-full max-w-2xl">
         <h1 className="text-3xl font-bold mb-4">TODO App</h1>
         <div className="flex mb-4">
